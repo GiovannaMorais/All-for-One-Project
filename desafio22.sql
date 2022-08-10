@@ -1,2 +1,3 @@
 UPDATE northwind.order_details
-SET discount = 5;
+SET discount = 15
+WHERE discount = 0;
